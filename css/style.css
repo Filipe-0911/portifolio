@@ -39,9 +39,9 @@ body {
 }
 .apresentacao {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    padding: 2% 30% 5% 10%;
+    padding: 2% 20% 5% 10%;
     gap: 82px;
 }
 img {
@@ -127,6 +127,10 @@ img {
 
 @media (max-width:1380px) {
     
+    .apresentacao {
+        align-items: center;
+
+    }
     .cabecalho {
         padding: 10% 0% 3% 0%;
     }

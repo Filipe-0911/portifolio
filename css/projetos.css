@@ -7,7 +7,7 @@
     --cor-hover: #272727;
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
-    /* --cor-terciaria: pink; */
+
 
 }
 
@@ -19,7 +19,6 @@
 body {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
-    /* height: 100vh; */
     box-sizing: border-box;
 }
 .cabecalho{
@@ -41,7 +40,7 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content:space-between;
-    padding: 2% 20% 5% 10%;
+    padding: 2% 5% 5% 10%;
     gap: 20px;
 }
 .apresentacao__conteudo {
@@ -74,10 +73,9 @@ body {
     font-size: 1.5rem;
 }
 .apresentacao__links__navegacao {
-    /*background-color: #22d4fd;*/
-    display: flex; /*adiciona o display flex (um item ao lado do outro dentro da div)*/
-    justify-content: center; /*alinha o conteudo ao centro no eixo horizontal (pq nao mudou a direction do flexbox)*/
-    gap: 16px; /*adiciona espaçamento aos itens da flexbox*/
+    display: flex;
+    justify-content: center; 
+    gap: 16px; 
     color: var(--cor-secundaria);
     width: 50%;
     text-align: center;
