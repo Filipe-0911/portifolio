@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
  :root {  
@@ -79,17 +80,15 @@ img {
     font-size: 1.5rem;
 }
 .apresentacao__links__navegacao {
-    /*background-color: #22d4fd;*/
-    display: flex; /*adiciona o display flex (um item ao lado do outro dentro da div)*/
-    justify-content: center; /*alinha o conteudo ao centro no eixo horizontal (pq nao mudou a direction do flexbox)*/
-    gap: 16px; /*adiciona espaçamento aos itens da flexbox*/
+    display: flex;
+    justify-content: center;
+    gap: 16px; 
     color: var(--cor-secundaria);
     width: 50%;
     text-align: center;
     border-radius: 8px;
     font-size: 1.5rem;
     padding: 22px 0px;
-    /* padding: 21.5px 0px; */
     text-decoration: none;
     font-family: var(--fonte-secundaria);
     font-weight: 600;
