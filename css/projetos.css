@@ -141,11 +141,15 @@ body {
     }
     
     .apresentacao {
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding: 5%;
     }
     .apresentacao__conteudo {
         width:auto;
+    }
+
+    .apresentacao__jogo {
+        align-items: center;
     }
 
 }
