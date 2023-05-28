@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/projetos.css" />
+    <link rel="stylesheet" href="jogoGato/style.css">
+    <script src="jogoGato/libraries/p5.min.js"></script>
+    <script src="jogoGato/libraries/p5.sound.min.js"></script>
+    <title>Sobre mim</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a href="index.html" class="cabecalho__menu__link">Home</a>
+            <a href="about.html" class="cabecalho__menu__link">Sobre mim</a>
+            <a href="#" class="cabecalho__menu__link">Projetos</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Projetos</h1>
+            <p class="apresentacao__conteudo__texto">
+                Adicionarei aqui alguns projetos que desenvolvi no decorrer dos estudos tanto na faculdade quanto no
+                curso <a href="http://www.alura.com.br" target="_blank" rel="noopener noreferrer">Alura</a>.
+            </p>
+            <h2 class="apresentacao__conteudo__titulo">Projeto da lojinha de "quebrada"</h2>
+            <p class="apresentacao__conteudo__texto">
+                Neste projeto a idéia foi simular como seria uma página de carrinho de compras de algum varejo.
+                Clique <a href="https://filipe-0911.github.io/loja-1/" target="_blank"
+                    rel="noopener noreferrer">aqui</a> para conferir.
+            </p>
+            <h2 class="apresentacao__conteudo__titulo">Jogo da velha</h2>
+            <div class="apresentacao__conteudo__texto">
+                <p class="apresentacao__conteudo__texto">
+                    Este projeto foi no início dos meus estudos de JavaScript. A ideia era criar um jogo da velha e
+                    jogar inserindo colunas e linhas nos Inputs.
+                    Clique <a href="https://github.com/Filipe-0911/jogoDaVelha" target="_blank"
+                        rel="noopener noreferrer">aqui</a> para conferir.
+                </p>
+            </div>
+            <h2 class="apresentacao__conteudo__titulo">Outros Projetos</h2>
+            <div class="apresentacao__conteudo__texto">
+                <p class="apresentacao__conteudo__texto">
+                    Confira no meu <a href="https://github.com/Filipe-0911" target="_blank"
+                        rel="noopener noreferrer">Github</a> estes e outros projetos que estou desenvolvendo para
+                    praticar HTML, CSS e JavaScript.
+                </p>
+            </div>
+
+        </section>
+        <section class="jogo">
+            <div class="titulo">
+                <h1 class="titulo__descricao">Ajude o gato a atravessar a rua.</h1>
+                <button class="iniciar__jogo" onclick="iniciar()">Iniciar</button>
+            </div>
+            <script src="jogoGato/sketch.js"></script>
+            <script src="jogoGato/imagens.js"></script>
+            <script src="jogoGato/ator.js"></script>
+            <script src="jogoGato/carros.js"></script>
+            <script src="jogoGato/p5.collide2d.js"></script>
+            <script src="jogoGato/https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js">
+            </script>
+          </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Filipe de Bianchi Andrade</p>
+    </footer>
+</body>
+
+</html>
