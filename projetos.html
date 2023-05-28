@@ -52,20 +52,33 @@
             </div>
 
         </section>
-        <section class="jogo">
-            <div class="titulo">
-                <h1 class="titulo__descricao">Ajude o gato a atravessar a rua.</h1>
-                <button class="iniciar__jogo" onclick="iniciar()">Iniciar</button>
+        <div class="separa-row">
+        <section class="apresentacao-jogo">
+            <h2 class="apresentacao__conteudo__titulo">Projeto jogoGato</h2>
+            <div class="apresentacao__conteudo__texto">
+                <p class="apresentacao__conteudo__texto">
+                    Este projeto em particular foi o que mais demandou tempo de desenvolvimento. A base inicial dele foi
+                    desenvolvida em um curso da <a href="http://www.alura.com.br" target="_blank"
+                        rel="noopener noreferrer">Alura</a>. Fiz algumas modificações do projeto inicial.
+                <div class="apresentacao__conteudo__texto">
+                    <ul class="apresentacao__conteudo__texto">
+                        <li>Modifiquei a imagem do ator;</li>
+                        <li>Adicionei fases com níveis mais avançados;</li>
+                        <li>Aumentei a velocidade dos carros ao aumentar o nível;</li>
+                        <li>Adicionei o contador de níveis em vermelho;</li>
+                        <li>Adicionei uma trilha sonora diferente na terceira fase.</li>
+                    </ul>
+
+                </div>
             </div>
-            <script src="jogoGato/sketch.js"></script>
-            <script src="jogoGato/imagens.js"></script>
-            <script src="jogoGato/ator.js"></script>
-            <script src="jogoGato/carros.js"></script>
-            <script src="jogoGato/p5.collide2d.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js">
-            </script>
-          </section>
-          
+        </section>
+        <h2 class="apresentacao__conteudo__titulo">
+            Para testar o jogo, clique na imagem abaixo:
+        </h2>
+        <p class="apresentacao__conteudo__texto">
+            <a href="jogoGato.html" rel="noopener noreferrer"><img src="img/fotoJogo.png" alt="Foto do Jogo"></a>
+        </p>
+    </div>
     </main>
     <footer class="rodape">
         <p>Desenvolvido por Filipe de Bianchi Andrade</p>

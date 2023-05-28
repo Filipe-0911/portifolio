@@ -40,12 +40,12 @@ body {
 .apresentacao {
     display: flex;
     align-items: flex-start;
-    justify-content:flex-start;
-    padding: 2% 0% 5% 10%;
+    justify-content:space-between;
+    padding: 2% 20% 5% 10%;
     gap: 20px;
 }
 .apresentacao__conteudo {
-    width: 30%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -121,6 +121,20 @@ body {
 .jogo {
     width: 100%;
     text-align: center;
+}
+
+.apresentacao-jogo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.separa-row {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
 }
 
 @media (max-width:1380px) {
