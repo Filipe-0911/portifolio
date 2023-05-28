@@ -6,7 +6,7 @@ let meusPontos = 2;
 let gameOverMSG = `GAME OVER!!!! TENTE DE NOVO!!! 
 PARA TENTAR NOVAMENTE PRESSIONE F5`;
 let winGame = `VOCÊ GANHOU!!! 
-PARA TENTAR NOVAMENTE PRESSIONE F5`;
+PARA JOGAR NOVAMENTE PRESSIONE F5`;
 let meuNivel = 1;
 
 //document.querySelector('.jogo').addEventListener('click', iniciar())
