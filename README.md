@@ -1,4 +1,4 @@
 <h1 align="center">Portifólio</h1>
 
-`Olá`
+`Neste projeto, inseri informações a respeito da minha atual carreira e dos meus estudos.`
 
