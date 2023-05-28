@@ -1,20 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
  :root {  
+    --bg: #000000;
+    --cor-principal: #ffffff;
+    --fonte-principal: 'Roboto', sans-serif;
     --cor-primaria: #000000;
     --cor-secundaria: #f6f6f6;
     --cor-terciaria: #22d4fd; 
     --cor-hover: #272727;
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
-
-
 }
 
 * {
     margin: 0px;
     padding: 0px;
 }
+.descricao {
+    text-align: center;
+  }
 
 body {
     background-color: var(--cor-primaria);
@@ -22,7 +27,7 @@ body {
     box-sizing: border-box;
 }
 .cabecalho{
-    padding: 2% 50% 3% 10%;
+    padding: 2% 50% 5% 10%;
     
 }
 .cabecalho__menu{
@@ -36,19 +41,7 @@ body {
     color: var(--cor-terciaria);
     text-decoration: none; 
 }
-.apresentacao {
-    display: flex;
-    align-items: flex-start;
-    justify-content:space-between;
-    padding: 2% 5% 5% 10%;
-    gap: 20px;
-}
-.apresentacao__conteudo {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
+
 .apresentacao__conteudo__titulo {
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
@@ -82,7 +75,6 @@ body {
     border-radius: 8px;
     font-size: 1.5rem;
     padding: 22px 0px;
-    /* padding: 21.5px 0px; */
     text-decoration: none;
     font-family: var(--fonte-secundaria);
     font-weight: 600;
@@ -118,11 +110,25 @@ body {
 }
 
 .apresentacao-jogo {
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+    padding: 1% 5% 5% 5%;
+    gap: 5px;
+}
+.apresentacao__conteudo {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
 
+.apresentacao {
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between;
+    padding: 0% 5% 5% 5%;
+    gap: 20px;
 }
 
 .separa-row {
@@ -130,6 +136,13 @@ body {
     flex-direction: column;
     gap: 2em;
 }
+
+.iniciar__jogo {
+    background-color: var(--cor-terciaria);
+    padding: 1em 2em;
+    border-radius: 10px;
+    font-family: var(--fonte-primaria);
+  }
 
 @media (max-width:1380px) {
     
@@ -148,7 +161,7 @@ body {
         width:auto;
     }
 
-    .apresentacao__jogo {
+    .apresentacao-jogo {
         align-items: center;
     }
 
@@ -156,10 +169,20 @@ body {
 
 @media (max-width:500px) {
     .cabecalho__menu__link,  .apresentacao__conteudo__texto, .apresentacao__links__subtitulo,
-     .apresentacao__links__navegacao, .rodape, .apresentacao__conteudo__texto a { /* 1.5px */
+     .apresentacao__links__navegacao, .rodape, .apresentacao__conteudo__texto a { 
         font-size: 1rem;
     }
-    .apresentacao__conteudo__titulo { /* 2.25px */
+    .apresentacao__conteudo__titulo {
         font-size: 1.5rem;
+        margin-top: 6%;
+    }
+    .apresentacao-jogo {
+        padding: 0%;
+    }
+    .foto-jogo {
+        width:100%;
+    }
+    .apresentacao__conteudo {
+        gap:20px;
     }
 }
