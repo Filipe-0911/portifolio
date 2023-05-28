@@ -5,16 +5,23 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="img/imagemGato.png" />
-  <title>Jogo</title>
-
+  
+  <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" type="text/css" href="style.css">
 
   <script src="libraries/p5.min.js"></script>
   <script src="libraries/p5.sound.min.js"></script>
+  <title>Jogo</title>
 </head>
 
 <body>
-  <header class="menu"></header>
+  <header class="cabecalho">
+    <nav class="cabecalho__menu">
+        <a href="index.html" class="cabecalho__menu__link">Home</a>
+        <a href="about.html" class="cabecalho__menu__link">Sobre mim</a>
+        <a href="projetos.html" class="cabecalho__menu__link">Projetos</a>
+    </nav>
+</header>
   <main class="conteudo">
     <div class="descricao">
       <h1 class="titulo__descricao">Ajude o gato a atravessar a rua.</h1>
@@ -34,6 +41,7 @@
     </section>
   </main>
   <footer class="rodape">
+    <p>Desenvolvido por Filipe de Bianchi Andrade</p>
   </footer>
 </body>
 
