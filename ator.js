@@ -8,7 +8,7 @@ PARA TENTAR NOVAMENTE PRESSIONE F5`;
 let winGame = `VOCÊ GANHOU!!! 
 PARA JOGAR NOVAMENTE PRESSIONE F5`;
 let meuNivel = 1;
-
+const botoes = document.querySelectorAll("#botoes");
 //document.querySelector('.jogo').addEventListener('click', iniciar())
 
 
@@ -56,6 +56,14 @@ function movimentaAtor() {
       return
     }
   }
+}
+
+
+function movimentaAtorBotaoCima () {
+
+  botoes.addEventListener('click', () => {
+    console.log('click');
+  })
 }
 
 function verificaColisao() {

@@ -144,6 +144,16 @@ body {
     font-family: var(--fonte-primaria);
   }
 
+.dificuldades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botao-row-1, .botao-row-2 {
+    display: flex;
+    align-items: center;
+}
+
 @media (max-width:1380px) {
     
     .cabecalho {
