@@ -12,7 +12,12 @@ let meuNivel = 1;
 //document.querySelector('.jogo').addEventListener('click', iniciar())
 
 
-
+document.addEventListener("keydown", function(event) {
+  var key = event.key;
+  if (key === "ArrowUp" || key === "ArrowDown" || key === "ArrowLeft" || key === "ArrowRight") {
+    event.preventDefault();
+  }
+});
 
 function mostraAtor() {
 
