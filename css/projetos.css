@@ -143,6 +143,9 @@ body {
     border-radius: 10px;
     font-family: var(--fonte-primaria);
   }
+.dificuldades {
+    display: none;
+}
 
 @media (max-width:1380px) {
     
