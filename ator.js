@@ -9,12 +9,17 @@ let winGame = `VOCÊ GANHOU!!!
 PARA JOGAR NOVAMENTE PRESSIONE F5`;
 let meuNivel = 1;
 
-document.querySelector('.iniciar__jogo').addEventListener('click', () => {
+document.querySelector('.apresentacao-jogo').addEventListener('click', () => {
   iniciar();
   
-})
+});
 
-
+document.addEventListener("keydown", function(event) {
+  var key = event.key;
+  if (key === "ArrowUp" || key === "ArrowDown" || key === "ArrowLeft" || key === "ArrowRight") {
+    event.preventDefault();
+  }
+});
 
 function mostraAtor() {
 
