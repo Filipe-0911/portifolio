@@ -148,6 +148,10 @@ img {
 }
 
 @media (max-width:500px) {
+    .cabecalho__menu {
+        gap: 60px;
+        margin: 0% 5%;
+    }
     .cabecalho__menu__link,  .apresentacao__conteudo__texto, .apresentacao__links__subtitulo,
      .apresentacao__links__navegacao, .rodape, .apresentacao__conteudo__texto a { /* 1.5px */
         font-size: 1rem;

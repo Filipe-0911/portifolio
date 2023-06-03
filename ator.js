@@ -118,7 +118,7 @@ function iniciar() {
   xCarros = [800, 800, 800, 800, 800, 800];
   trilhaSom.loop(0, 1, 0.2);
   meusPontos = 2;
-  $(window).bind('scroll', setTopo);
+  
   
 }
 
@@ -166,11 +166,5 @@ function exibirMensagem(mensagem) {
   text(mensagem, 350, 180);
   textSize(50);
 }
-
-
-function setTopo(){ 
-  $(window). scrollTop(0); 
-
-} 
 
 
