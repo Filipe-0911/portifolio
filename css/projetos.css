@@ -118,6 +118,8 @@ body {
     display: flex;
     align-items: center ;
     flex-direction: column;
+    margin: auto 30%;
+    margin-bottom: 6em;
     gap: 5px;
 }
 .apresentacao__conteudo {
