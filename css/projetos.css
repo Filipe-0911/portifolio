@@ -16,6 +16,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    
 }
 .descricao {
     text-align: center;
@@ -118,16 +119,7 @@ body {
     display: flex;
     align-items: center ;
     flex-direction: column;
-    padding: 1% 0% 5% 0%;
-    margin: auto 33%;
-    gap: 5px;
-}
-
-.apresentacao-jogo-texto {
-    display: flex;
-    align-items: center ;
-    flex-direction: column;
-    padding: 1% 0% 5% 0%;
+    padding: 1% 5% 5% 5%;
     gap: 5px;
 }
 .apresentacao__conteudo {
@@ -157,6 +149,9 @@ body {
     border-radius: 10px;
     font-family: var(--fonte-primaria);
   }
+.dificuldades {
+    display: none;
+}
 
 .dificuldades {
     display: flex;
@@ -193,13 +188,10 @@ body {
 }
 
 @media (max-width:500px) {
-    .cabecalho__menu {
-        gap: 60px;
-        margin: 0% 5%;
-    }
     .cabecalho__menu__link,  .apresentacao__conteudo__texto, .apresentacao__links__subtitulo,
      .apresentacao__links__navegacao, .rodape, .apresentacao__conteudo__texto a { 
         font-size: 1rem;
+        
     }
     .apresentacao__conteudo__titulo {
         font-size: 1.5rem;
@@ -210,6 +202,7 @@ body {
     }
     .foto-jogo {
         width:100%;
+        text-align: center;
     }
     .apresentacao__conteudo {
         gap:20px;
