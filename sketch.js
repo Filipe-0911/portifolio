@@ -16,5 +16,4 @@ function draw() {
   proxNivel();
   incluiNivel();
   resultadoJogo ();
-  movimentaAtorBotaoCima ();
 }

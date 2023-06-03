@@ -8,9 +8,11 @@ PARA TENTAR NOVAMENTE PRESSIONE F5`;
 let winGame = `VOCÊ GANHOU!!! 
 PARA JOGAR NOVAMENTE PRESSIONE F5`;
 let meuNivel = 1;
-const botoes = document.querySelectorAll("#botoes");
-//document.querySelector('.jogo').addEventListener('click', iniciar())
 
+document.querySelector('.iniciar__jogo').addEventListener('click', () => {
+  iniciar();
+  
+})
 
 
 
@@ -19,13 +21,6 @@ function mostraAtor() {
   image(imagemAtor, xAtor, yAtor, 30, 30);
 
 }
-
-// function mostraSetas() {
-//   image(setaCima, 580, 400, 30, 30);
-//   image(setaBaixo, 580, 460, 30, 30);
-//   image(setaDireita, 620, 430, 30, 30);
-//   image(setaEsquerda, 540, 430, 30, 30);
-// }
 
 function movimentaAtor() {
   if (keyIsDown(UP_ARROW)) {
@@ -58,13 +53,6 @@ function movimentaAtor() {
   }
 }
 
-
-function movimentaAtorBotaoCima () {
-
-  botoes.addEventListener('click', () => {
-    console.log('click');
-  })
-}
 
 function verificaColisao() {
   //hit = collideRectRect(200, 200, 100, 150, mouseX, mouseY, 50, 75);
@@ -125,6 +113,7 @@ function iniciar() {
   xCarros = [800, 800, 800, 800, 800, 800];
   trilhaSom.loop(0, 1, 0.2);
   meusPontos = 2;
+  $(window).bind('scroll', setTopo);
   
 }
 
@@ -172,3 +161,11 @@ function exibirMensagem(mensagem) {
   text(mensagem, 350, 180);
   textSize(50);
 }
+
+
+function setTopo(){ 
+  $(window). scrollTop(0); 
+
+} 
+
+
