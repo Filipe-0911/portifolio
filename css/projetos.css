@@ -119,15 +119,7 @@ body {
     align-items: center ;
     flex-direction: column;
     padding: 1% 0% 5% 0%;
-    margin: auto 33%;
-    gap: 5px;
-}
-
-.apresentacao-jogo-texto {
-    display: flex;
-    align-items: center ;
-    flex-direction: column;
-    padding: 1% 0% 5% 0%;
+    margin: auto 30%;
     gap: 5px;
 }
 .apresentacao__conteudo {
@@ -157,6 +149,9 @@ body {
     border-radius: 10px;
     font-family: var(--fonte-primaria);
   }
+.dificuldades {
+    display: none;
+}
 
 .dificuldades {
     display: flex;
@@ -193,6 +188,10 @@ body {
 }
 
 @media (max-width:500px) {
+    * {
+        
+        list-style: none;
+    }
     .cabecalho__menu {
         gap: 60px;
         margin: 0% 5%;
