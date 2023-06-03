@@ -21,6 +21,8 @@ document.addEventListener("keydown", function(event) {
   }
 });
 
+
+
 function mostraAtor() {
 
   image(imagemAtor, xAtor, yAtor, 30, 30);
