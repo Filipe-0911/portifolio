@@ -189,13 +189,16 @@ body {
 
 @media (max-width:500px) {
     * {
-        text-align: center;
+        
         list-style: none;
+    }
+    .cabecalho__menu {
+        gap: 60px;
+        margin: 0% 5%;
     }
     .cabecalho__menu__link,  .apresentacao__conteudo__texto, .apresentacao__links__subtitulo,
      .apresentacao__links__navegacao, .rodape, .apresentacao__conteudo__texto a { 
         font-size: 1rem;
-        
     }
     .apresentacao__conteudo__titulo {
         font-size: 1.5rem;
@@ -206,7 +209,6 @@ body {
     }
     .foto-jogo {
         width:100%;
-        text-align: center;
     }
     .apresentacao__conteudo {
         gap:20px;
