@@ -22,8 +22,8 @@
   }
 
 body {
-    background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria) !important;
+    color: var(--cor-secundaria) !important;
     box-sizing: border-box;
 }
 .cabecalho{
@@ -34,6 +34,9 @@ body {
     display: flex;
     gap: 80px;
 }
+.card-body{
+    font-size: 1rem !important;
+}
 .cabecalho__menu__link{
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
@@ -41,7 +44,10 @@ body {
     color: var(--cor-terciaria);
     text-decoration: none; 
 }
-
+.compras{
+    width: 57% !important;
+    margin-left: 3.7em;
+}
 .apresentacao__conteudo__titulo {
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
@@ -113,7 +119,9 @@ body {
 .lista-modificacoes {
     list-style: none;
 }
-
+img{
+    height: 30%;
+}
 .apresentacao-jogo {
     display: flex;
     align-items: center ;
@@ -125,11 +133,11 @@ body {
 .apresentacao__conteudo {
     width: 100%;
     display: flex;
-    flex-direction: column;
     gap: 39px;
 }
 
 .apresentacao {
+    flex-direction: column;
     display: flex;
     align-items: flex-start;
     justify-content:space-between;
@@ -218,5 +226,15 @@ body {
     }
     .apresentacao-jogo {
         margin: 0;
+    }
+    .apresentacao__conteudo {
+        flex-direction: column;
+        
+    }
+    .apresentacao {
+        align-items: center;
+    }
+    .card {
+        height: 30em !important;
     }
 }
