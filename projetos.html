@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/projetos.css" />
     <link rel="icon" type="image/png" href="img/projetos.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Projetos</title>
 </head>
 
@@ -19,81 +20,56 @@
         </nav>
     </header>
     <main class="apresentacao">
+        <h1 class="apresentacao__conteudo__titulo">Projetos</h1>
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Projetos</h1>
-            <p class="apresentacao__conteudo__texto">
-                Adicionarei aqui alguns projetos que desenvolvi no decorrer dos estudos tanto na faculdade quanto no
-                curso <a href="http://www.alura.com.br" target="_blank" rel="noopener noreferrer">Alura</a>.
-            </p>
-            <h2 class="apresentacao__conteudo__titulo">Lojinha de "quebrada"</h2>
-            <p class="apresentacao__conteudo__texto">
-                Neste projeto a idéia foi simular como seria uma página de carrinho de compras de algum varejo.
-                Clique <a href="https://filipe-0911.github.io/loja-1/" target="_blank"
-                    rel="noopener noreferrer">aqui</a> para conferir.
-            </p>
-            <h2 class="apresentacao__conteudo__titulo">7 Days of Code da Alura</h2>
-            <div class="apresentacao__conteudo__texto">
-                <p class="apresentacao__conteudo__texto">
-                    Este projeto desenvolvi com foco em Lógica da programação em JavaScript. Foi um dos mais recentes
-                    que fiz.
-                    Clique <a href="https://filipe-0911.github.io/projeto7daysofcode/" target="_blank"
-                        rel="noopener noreferrer">aqui</a> para conferir.
-                </p>
-            </div>
-            <h2 class="apresentacao__conteudo__titulo">Jogo da velha</h2>
-            <div class="apresentacao__conteudo__texto">
-                <p class="apresentacao__conteudo__texto">
-                    Este projeto foi no início dos meus estudos de JavaScript. A ideia era criar um jogo da velha e
-                    jogar inserindo colunas e linhas nos Inputs.
-                    Clique <a href="https://filipe-0911.github.io/jogoDaVelha/" target="_blank"
-                        rel="noopener noreferrer">aqui</a> para conferir.
-                </p>
-
-            </div>
-            <h2 class="apresentacao__conteudo__titulo">Outros Projetos</h2>
-            <div class="apresentacao__conteudo__texto">
-                <p class="apresentacao__conteudo__texto">
-                    Confira no meu <a href="https://github.com/Filipe-0911" target="_blank"
-                        rel="noopener noreferrer">Github</a> estes e outros projetos que estou desenvolvendo para
-                    praticar HTML, CSS e JavaScript.
-                </p>
-            </div>
-
-        </section>
-        <div class="apresentacao__conteudo">
-            <h2 class="apresentacao__conteudo__titulo">Jogo do Gato</h2>
-            <section class="apresentacao-jogo-texto">
-                <div class="apresentacao__conteudo__texto">
-                    <p class="apresentacao__conteudo__texto">
-                        Este projeto em particular foi o que mais demandou tempo de desenvolvimento. A base inicial dele
-                        foi desenvolvida em um curso da <a href="http://www.alura.com.br" target="_blank"
-                            rel="noopener noreferrer">Alura</a>.  
-                    </p>
-                    <br>
-                    <p class="apresentacao__conteudo__texto">
-                        <strong class="titulo-destaque">Fiz algumas modificações do projeto:</strong>
-                    </p>
-                    <br>
-                    <div class="apresentacao__conteudo__texto">
-                        <ul class="apresentacao__conteudo__texto">
-                            <li class="lista-modificacoes">Modifiquei a imagem do ator;</li>
-                            <li class="lista-modificacoes">Adicionei fases com níveis mais avançados;</li>
-                            <li class="lista-modificacoes">Aumentei a velocidade dos carros ao aumentar o nível;</li>
-                            <li class="lista-modificacoes">Adicionei o contador de níveis em vermelho;</li>
-                            <li class="lista-modificacoes">Adicionei uma trilha sonora diferente na terceira fase.</li>
-                        </ul>
-
-                    </div>
+            <div class="card text-center bg-black bg-gradient text-white" style="width: 18rem; height: 45rem;">
+                <img src="img/fotoJogo.png" class="card-img-top" alt="jogo gato">
+                <div class="card-body">
+                  <h5 class="card-title apresentacao__conteudo__titulo">Jogo do Gato</h5>
+                  <p class="card-text apresentacao__conteudo__texto">Este projeto em particular foi o que mais demandou tempo de desenvolvimento. A base inicial dele
+                    foi desenvolvida em um curso da <a href="http://www.alura.com.br" target="_blank"
+                        rel="noopener noreferrer">Alura</a>. </p>
+                  <a href="jogoGato.html" target="_blank" class="btn btn-primary">Ver projeto</a>
                 </div>
-            </section>
-            <h2 class="apresentacao__conteudo__titulo">
-                Para testar o jogo, clique na imagem abaixo:
-            </h2>
-            <p class="apresentacao__conteudo__texto text-center">
-                <a href="jogoGato.html" rel="noopener noreferrer"><img class="foto-jogo" src="img/fotoJogo.png" alt="Foto do Jogo"></a>
-            </p>
-        </div>
+              </div>
+              <div class="card text-center bg-black bg-gradient text-white" style="width: 18rem; height: 45rem;">
+                <img src="img/mochila de viagem.png" class="card-img-top" alt="mochila de viagem">
+                <div class="card-body">
+                  <h5 class="card-title apresentacao__conteudo__titulo">Mochila de Viagem</h5>
+                  <p class="card-text apresentacao__conteudo__texto">Neste projeto a pessoa insere um item que deseja levar na viagem e a quantidade.</p>
+                  <a href="https://filipe-0911.github.io/mochila-de-viagem/" target="_blank" class="btn btn-primary">Ver projeto</a>
+                </div>
+              </div>
+              <div class="card text-center bg-black bg-gradient text-white" style="width: 18rem; height: 45rem;">
+                <img src="img/lojinha.png" class="card-img-top" alt="Loja">
+                <div class="card-body">
+                  <h5 class="card-title apresentacao__conteudo__titulo">Lojinha de quebrada</h5>
+                  <p class="card-text apresentacao__conteudo__texto">Neste projeto a idéia foi simular como seria uma página de carrinho de compras de algum varejo.</p>
+                  <a href="https://filipe-0911.github.io/loja-1/" target="_blank" class="btn btn-primary">Ver projeto</a>
+                </div>
+              </div>
+              <div class="card text-center bg-black bg-gradient text-white" style="width: 18rem; height: 45rem;">
+                <img src="img/lista de compras.png" class="card-img-top compras" alt="Lista de compras">
+                <div class="card-body">
+                  <h5 class="card-title apresentacao__conteudo__titulo">Lisda de compras</h5>
+                  <p class="card-text apresentacao__conteudo__texto">Nesta lista de compras utilizei o conceito de Objetos do JavaScript. Ainda está em desenvolvimento.</p>
+                  <a href="https://filipe-0911.github.io/listaDeCompras/" target="_blank" class="btn btn-primary">Ver projeto</a>
+                </div>
+              </div>
+              <div class="card text-center bg-black bg-gradient text-white" style="width: 18rem; height: 45rem;">
+                <img src="img/jogo perguntas.png" class="card-img-top" alt="jogo de perguntas">
+                <div class="card-body">
+                  <h5 class="card-title apresentacao__conteudo__titulo">Jogo de perguntas</h5>
+                  <p class="card-text apresentacao__conteudo__texto">Este projeto é um jogo de perguntas para exercitar lógica da programação.</p>
+                  <a href="https://filipe-0911.github.io/projeto7daysofcode/" target="_blank" class="btn btn-primary">Ver projeto</a>
+                </div>
+              </div>
+        </section>
+        <section class="text-center">
+            <p class="apresentacao__conteudo__texto">Você pode ver outros projetos como estes acessando meu <a href="http://https://github.com/Filipe-0911" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+        </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <footer class="rodape">
         <p>Desenvolvido por Filipe de Bianchi Andrade</p>
     </footer>
