@@ -20,7 +20,6 @@
 body {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
-    /* height: 100vh; */
     box-sizing: border-box;
 }
 .cabecalho{
